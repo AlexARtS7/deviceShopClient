@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build && ren build public_html"
   },
   "dependencies": {
     "react": "^18.2.0",
