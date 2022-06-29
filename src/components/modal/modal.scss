@@ -1,0 +1,40 @@
+input {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 15px 0;
+}
+
+.modal {
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    background-color: rgba(94, 100, 76, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_title {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    &_button {
+        padding: 10px;
+        margin-top: 10px;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    &_error {
+        color:red;
+        font-size: 14px;
+    }
+    &_content {
+        max-height: 90vh;
+        padding: 20px;
+        border-radius: 4px;
+        background-color: white;
+        overflow-y: auto;
+    }
+}
+

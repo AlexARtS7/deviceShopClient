@@ -1,0 +1,44 @@
+@font-face {
+	font-family: 'MontserratAlternates'; 
+	src: url('../assets/fonts/MontserratAlternates-Medium.ttf'); 
+}
+
+* {
+    font-family: 'MontserratAlternates', sans-serif;
+    font-size: 16px;
+    letter-spacing: .5px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &_container {
+        width: 90vw;
+        height: 90vh;
+        border: .5px solid gray;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    &_button {
+        padding: 5px;
+        &_full {
+            padding: 5px;
+            width: 100%;
+            cursor: pointer;
+        }
+    }
+}
+
+.flex {
+    &_between {
+        display: flex;
+        justify-content: space-between;
+    }
+}
